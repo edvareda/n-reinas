@@ -21,7 +21,7 @@ class utils
 			casilla* casillaTableroAnte = new casilla(); // 06
 			casilla* AuxIni = new casilla(); // x01
 			cout << "Crear casilla tablero: "<< casillatableroIni << endl;
-			casillatableroTemp = casillatableroIni; // x02
+			casillatableroTemp = casillatableroIni; // x02 
 			casillaTableroAnte = NULL;
 			for (int i = 1; i < nReinasParam; i++)
 			{
