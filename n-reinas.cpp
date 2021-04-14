@@ -5,7 +5,6 @@ using namespace std;
 utils* utilsFile = new utils();
 int main()
 {
-	//utils
-	utilsFile->selectnReinas();
+	utilsFile->crearMatriz();
 	utilsFile->tablero(utilsFile->nReinas);
 }

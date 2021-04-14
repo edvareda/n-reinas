@@ -12,6 +12,8 @@ class casilla
 		casilla* d;
 		casilla* edl;
 		casilla* l;
+		casilla* sr;
+		casilla* ar;
 
 		casilla() {
 			this->u = NULL; //up = arriba
@@ -22,6 +24,8 @@ class casilla
 			this->d = NULL; //down = abajo
 			this->edl = NULL; //edl = esquina down left = esquina inferior izquierda
 			this->l = NULL; //left = izquierda
+			this->sr = NULL;
+			this->ar = NULL;
 			this->estado = 0;
 		}
 		void setEstado(bool estadoParam) {
